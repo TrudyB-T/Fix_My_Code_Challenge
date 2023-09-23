@@ -76,11 +76,11 @@ if __name__ == '__main__':
     if user_2.password is not None:
         print("User.password should be None by default")
 
-    user_2.password = None
+    user_2.password == None
     if user_2.password is not None:
         print("User.password should be None if setter to None")
 
-    user_2.password = 89
+    user_2.password == 89
     if user_2.password is not None:
         print("User.password should be None if setter to an integer")
 
